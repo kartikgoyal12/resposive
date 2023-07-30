@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center ;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.nav-list li a:hover{
+    color: antiquewhite;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    border-radius: 9px;
+    padding: 5px 8px;
+    margin-top: 1px;
+
+}
+
+.btn{
+    /*margin-right: 100px;*/
+    border: 2px solid white;
+    padding: 6px 15px;
+    margin: 5px 3px;
+    border-radius: 6px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.btn-sm{
+    border: 2px solid white;
+    padding: 5px 15px;
+        margin-right: 60px;
+        border-radius: 5px;
+        background: none;
+        color: aliceblue;
+}
+
+.background{
+    background: rgba(0, 0 , 0, 0.6) url(../images/s-l400.jpg);
+    background-size: cover ;
+    background-blend-mode: darken;
+    
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    max-width: 50%;
+    margin: auto;
+    height: 55%;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 80%;
+}
+
+.secondhalf img{
+    width: 50%;
+    /* height: 40%; */
+    padding: 0px 0px;
+    border: 3px solid gray;
+    border-radius: 150px;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.secleft{
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.contact{
+    background-color:aliceblue;
+    height: 433px;
+}
+
+.textcentre{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.form{
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form-input{
+    padding: 8px;
+    margin: 9px;
+    width: 100%;
+    font-size: medium;
+    border: 2px solid gray;
+    display: block;
+}
+
+.btn-dark{
+    color: black;
+    border-color: black;
+   
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top:15%;
+    
+    
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+}
